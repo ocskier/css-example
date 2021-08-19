@@ -138,7 +138,7 @@ ul {
     transition: transform 0.3s linear;
 }
 
-.image-link img {
+.card > img {
     width: 100%;
     border-radius: 2px;
 }
@@ -227,9 +227,6 @@ a:hover {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .card {
-        max-width: inherit;
-    }
     .grid {
         justify-content: center
     }
@@ -245,10 +242,19 @@ a:hover {
     html {
         font-size: 14px;
     }
+    div.fa {
+        font-size: 1.25rem;
+    }
+    #social li label {
+        font-size: 0.75rem;
+    }
 }
 
 @media screen and (max-width: 376px) {
-    html {
-        font-size: 13px;
+    .brand {
+        font-size: 1rem;
+    }
+    .row .column h3 {
+        font-size: 1.5rem;
     }
 }
